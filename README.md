@@ -28,9 +28,9 @@
     ![](https://raw.githubusercontent.com/stedjo/php-codesniffer/master/images/phpcs_version.png)
 
 3. **Create your ruleset based on PSR2**
-    - Open the _CodeSniffer Standards_ directory and create new folder called _DevTech_ (C:\php\pear\PHP\CodeSniffer\Standards\DevTech)
-    - Copy and paste the attached _ruleset.xml_ file inside of the newly created directory (C:\php\pear\PHP\CodeSniffer\Standards\DevTech\ruleset.xml)
-    - After this is done we will need to set up the _Code Style Scheme_ for our projects. This is used when running _Reformat_ on the legacy code, or while creating a new code from the scratch. PhpStorm will use this to structure your code layout, so you won&#39;t have to worry about complying the standard requirements. Go to your IDE _codestyles_ settings directory (mine is _C:\Users\stefan.djokic\.WebIde100\config\codestyles_) and paste the attached file _DevTech.xml_
+    - Open the _CodeSniffer Standards_ directory and create new folder called _MyStyle_ (C:\php\pear\PHP\CodeSniffer\Standards\MyStyle)
+    - Copy and paste the attached _ruleset.xml_ file inside of the newly created directory (C:\php\pear\PHP\CodeSniffer\Standards\MyStyle\ruleset.xml)
+    - After this is done we will need to set up the _Code Style Scheme_ for our projects. This is used when running _Reformat_ on the legacy code, or while creating a new code from the scratch. PhpStorm will use this to structure your code layout, so you won&#39;t have to worry about complying the standard requirements. Go to your IDE _codestyles_ settings directory (mine is _C:\Users\stefan.djokic\.WebIde100\config\codestyles_) and paste the attached file _MyStyle.xml_
 
 4. **Configure PhpStorm**
     - Run your PhpStorm and open the Settings panel (Ctrl + Alt + S)  
@@ -43,11 +43,11 @@
     
     ![](https://raw.githubusercontent.com/stedjo/php-codesniffer/master/images/phpcs_phpstorm_path.png)
 
-    - Go to _Editor-&gt;Code Style-&gt;PHP_ and select _DevTech_ from the _Scheme_ dropping menu then hit _Apply_
+    - Go to _Editor-&gt;Code Style-&gt;PHP_ and select _MyStyle_ from the _Scheme_ dropping menu then hit _Apply_
     
     ![](https://raw.githubusercontent.com/stedjo/php-codesniffer/master/images/phpstorm_code_style.png)
 
-    - Go to _Editor-&gt;Inspections_ under _Unused_, check _PHP Code Sniffer validation_ checkbox, then change the _Coding standard_ to _DevTech_ (you might need to press refresh in order to update the list of coding standards) hit _OK_
+    - Go to _Editor-&gt;Inspections_ under _Unused_, check _PHP Code Sniffer validation_ checkbox, then change the _Coding standard_ to _MyStyle_ (you might need to press refresh in order to update the list of coding standards) hit _OK_
     
     ![](https://raw.githubusercontent.com/stedjo/php-codesniffer/master/images/phpstorm_inspection.png)
 
