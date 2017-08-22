@@ -19,7 +19,7 @@
 2. **Install PHPCS**
     - Open command terminal (Win + R, type `cmd` and press Enter)
     - Position yourself inside your php directory
-    - Run `pear install PHP___CodeSniffer`
+    - Run `pear install PHP_CodeSniffer`
 
     ![](https://raw.githubusercontent.com/stedjo/php-codesniffer/master/images/phpcs_install.png)
 
