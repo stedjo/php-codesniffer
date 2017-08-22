@@ -10,7 +10,7 @@
     - Download pear [http://pear.php.net/go-pear.phar](http://pear.php.net/go-pear.phar) and put it inside your php directory
     - Open command terminal (Win + R, type `cmd` and press Enter)
     - Position yourself inside your php directory
-    - Run php go-pear.phar
+    - Run `php go-pear.phar`
 
     ![](https://raw.githubusercontent.com/stedjo/php-codesniffer/master/images/pear_install.png)
 
@@ -19,11 +19,11 @@
 2. **Install PHPCS**
     - Open command terminal (Win + R, type `cmd` and press Enter)
     - Position yourself inside your php directory
-    - Run pear install PHP\_CodeSniffer
+    - Run `pear install PHP\_CodeSniffer`
 
     ![](https://raw.githubusercontent.com/stedjo/php-codesniffer/master/images/phpcs_install.png)
 
-    - After installation has finished, you should be able to check your phpcs version by typing ` phpcs --version` (you might need to reopen the command prompt for the changes to take affect)
+    - After installation has finished, you should be able to check your phpcs version by typing `phpcs --version` (you might need to reopen the command prompt for the changes to take affect)
     
     ![](https://raw.githubusercontent.com/stedjo/php-codesniffer/master/images/phpcs_version.png)
 
